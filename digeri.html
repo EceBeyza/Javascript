@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <div class="first"></div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-8 offset-sm-2">
+                <form id="bigForm">
+                    <div class="userName m-3 ">
+                        <label class="form-label p-2 fw-bold" for="name">Write your user name</label>
+                        <input id="username" class="form-control w-50" type="text" name="username">
+                    </div>
+                    <div class="scoreBig m-3 ">
+                        <label class="form-label p-2 fw-bold" for="name">Write your score</label>
+                        <input class="form-control w-50" type="number" name="score" id="score">
+                    </div>
+                    <div class="m-3">
+                        <button class="but1 btn btn-success pe-4 ps-4" type="submit">Send</button>
+                        <button class="reset btn btn-danger pe-4 ps-4" type="reset">Reset</button>
+                    </div>
+                </form>
+            </div>
+            <div class="secondDiv col-4 offset-sm-2"></div>
+        </div>
+
+
+        <form class="w-25 col-4 offset-sm-2 mt-5 border border-danger" id="firstBox">
+            <div class="input-group w-75 p-2 mx-auto">
+                <span class="input-group-text fw-bold" id="inputGroup-sizing-default">Ad : </span>
+                <input type="text" class="form-control" id="text1" aria-label="Sizing example input">
+            </div>
+
+            <div class="input-group w-75 p-2 mx-auto">
+                <span class="input-group-text fw-bold" id="inputGroup-sizing-default">Soyad : </span>
+                <input type="text" class="form-control" id="text2" aria-label="Sizing example input">
+            </div>
+
+            <div class="input-group  w-75 p-2 mx-auto">
+                <span class="input-group-text fw-bold" id="inputGroup-sizing-default">Yaş : </span>
+                <input type="number" class="form-control" id="text3" aria-label="Sizing example input">
+            </div>
+            <input class="button1 btn btn-warning px-3
+              m-2 ms-5" type="submit" value="Submit">
+        </form>
+        <div class="thePlaceWhichYouPut
+        w-25 offset-sm-2 mt-5 ">
+
+        </div>
+
+        <div class="ull"></div>
+    </div>
+
+
+
+
+
+
+    <script src="odev.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"> </script>
+</body>
+
+</html>
